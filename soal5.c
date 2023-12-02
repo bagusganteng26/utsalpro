@@ -1,3 +1,7 @@
+//eko
+//nim
+//absen
+
 #include <stdio.h>
 int fibonacci(int n) {
     int a = 0, b = 1, next;
@@ -13,8 +17,9 @@ int fibonacci(int n) {
 }
 int main (){
     int n;
-    printf("Masukkan angka : ");
+    printf("Masukkan angka bro : ");
+    printf("====");
     scanf("%d", &n);
     fibonacci (n);
-return 0;
+    return 0;
 }
